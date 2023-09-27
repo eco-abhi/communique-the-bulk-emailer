@@ -1,0 +1,21 @@
+.prevButton {
+    outline: none;
+    border: solid 2px white;
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+    background: transparent;
+    color: white;
+    font-size: var(--text-sm);
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: 0.4s ;
+  }
+  .prevButton:hover {
+    opacity: 0.9;
+    background: white;
+    color:black;
+    border: solid 3px #0DFF9D;
+  }
+  

@@ -1,0 +1,50 @@
+.email-box  input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 8vh;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .email-box  label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .email-box {
+    position: relative;
+  }
+
+  .email-box  input:focus ~ label,
+  .email-box  input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+  input::placeholder{
+    color: transparent;
+  }
+
+  input:focus::placeholder {
+    color: rgb(89, 89, 91);
+  }
+
+
+  .email-box  .error {
+    border-bottom: 1px solid red;
+  }
+
+
+ 

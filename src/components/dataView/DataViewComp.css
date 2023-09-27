@@ -1,0 +1,43 @@
+#data-table {
+    height: 1000px; /* Adjust the height to your desired value */
+    overflow-y: auto; 
+
+}
+
+.MuiSvgIcon-root {
+    color:white
+}
+
+
+
+  .nav-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 5%; /* Adjust the spacing between buttons */
+    padding-right: 10%;
+    padding-bottom: 5%;
+  }
+
+p {
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+
+
+.hero-img-data-view img {
+    width: 20%;
+    height: auto;
+    position: relative;
+  }
+
+  .hero-img-data-view {
+    position: relative;
+    margin-top:7%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+

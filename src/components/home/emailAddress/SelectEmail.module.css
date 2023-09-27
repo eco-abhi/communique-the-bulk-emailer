@@ -1,0 +1,31 @@
+
+@media (max-width: 900px) {
+  .about {
+    grid-template-columns: 1fr;
+ }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.linksText {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: var(--text-sm);
+  color: var(--brand);
+}
+
+.highlightFirstLetter:first-letter {
+  background: var(--background-light);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-size: var(--text-md);
+  font-weight: bold;
+  margin-right: 0.6rem;
+  float: left;
+} 
+

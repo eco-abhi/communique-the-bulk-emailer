@@ -1,0 +1,17 @@
+/* styles.css */
+/* Apply resizing handles to the editor container */
+.react-quill-div {
+  max-width:100%;
+  height:auto;
+  display: flex;
+  min-height: 10vh;
+  display: flex;
+
+}
+
+.react-quill {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+

@@ -1,0 +1,82 @@
+.file-attach-container {
+    border: 2px dashed white;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 2%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: column; /* Ensure a vertical layout */
+    margin-bottom: 8vh;
+}
+
+input[type='file'] {
+    color: transparent;
+    overflow: visible;
+  }
+
+  input[type=file]::file-selector-button {
+    outline: none;
+    border: solid 2px rgb(181, 147, 230);
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+    background: transparent;
+    color: white;
+    font-size: var(--text-sm);
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: 0.4s ;
+    
+  }
+
+  input[type=file]::file-selector-button:hover {
+    opacity: 0.9;
+    background: white;
+    color:black;
+    border: solid 2px rgb(173, 157, 197);
+  }
+
+
+
+  .file-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    gap: 5%;
+    padding: 2%;
+
+  }
+
+
+.file-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 100px; /* Adjust the maximum width as needed */
+    white-space: wrap;
+    text-overflow: ellipsis;
+    font-size: small;
+    width: calc(33.33% - 20px);
+}
+  
+.file-icon {
+position: relative;
+}
+
+.remove {
+position: relative;
+top: 0;
+right: 0;
+cursor: pointer;
+}
+
+
+.file-title {
+display: block;
+text-align: center;
+margin-top: 5px; /* Adjust the margin as needed */
+white-space: wrap;
+}
+  

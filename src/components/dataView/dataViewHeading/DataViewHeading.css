@@ -1,0 +1,22 @@
+.heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 999;
+  }
+  
+  #app-name,
+  button {
+    color: white;
+   
+  }
+  

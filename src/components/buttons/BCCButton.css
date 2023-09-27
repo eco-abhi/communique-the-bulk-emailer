@@ -1,0 +1,26 @@
+
+.bcc-button {
+    outline: none;
+    border: solid 1px var(--brand);
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: var(--text-sm);
+    border-radius: 30px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: 0.4s;
+    width:8vh;
+    height:3vh;
+  };
+  
+
+.bcc-button:hover {
+    opacity: 0.9;
+    background: rgb(136, 117, 165);
+    color:black
+};
+
+
+  

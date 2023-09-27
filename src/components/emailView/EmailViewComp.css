@@ -1,0 +1,63 @@
+
+
+.email-view-form {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    padding: 40px;
+    background: #080808;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    border: 1px solid #0DFF9D;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80vh;
+}
+
+ul {
+    list-style: none; /* Remove default list styles */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Adjust the value to control the spacing */
+  }
+
+  h2{
+    margin-bottom: 2%;
+  }
+
+.email-form-instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* This ensures it takes up the full viewport height */
+    padding: 15%;
+}
+
+
+.email-view-form {
+  /* Add this style */
+  margin-bottom: 10px;
+}
+
+.nav-email-buttons {
+  /* Add this style */
+  position:fixed;
+  width: 100%;
+  padding: 10px  ;
+  bottom: 0;
+  left: 0;
+} 
+
+
+
+.cc-bcc-buttons {
+    margin-bottom: 8vh;
+  }
+  
+.cc-bcc-buttons button {
+margin-right: 2vh; /* Add a gap between the buttons */
+}
